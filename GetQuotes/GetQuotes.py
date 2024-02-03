@@ -20,7 +20,7 @@ print(f'That is approximately {(len(everything) - 1) / 32:.2f} months w/ 2 quote
 
 
 with open('used.txt', 'a+') as used:
-    for i in range(0):
+    for i in range(3):
         used.seek(0)
         if chosen_quote not in used:
             print(chosen_quote + '\n')
